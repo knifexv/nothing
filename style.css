@@ -17,9 +17,19 @@ body {
 
 }
 img {
-    width:  50vw;
-    height:  100vh;
+    width:  200px;
+    height:  200px;
     border-top:  solid 10px purple;
+    border-bottom:  solid 10px purple;
+    border-right:  solid 10px purple;
+    border-left:  solid 10px purple;
+}
+.img {
+    animation: 5s show ease;
+}
+@keyframes show {
+from {opacity: 0; }
+    to {opacity: 1; }
 }
 .img {
     padding: 0px 0%;
