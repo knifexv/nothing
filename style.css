@@ -19,14 +19,13 @@ body {
 img {
     width: 200px;
     height: 200px;
+    animation: 5s show ease;
 }
 .img {
     padding: 0px 0%;
 
 }
-.img {
-    animation: 5s show ease;
-}
+
 @keyframes anim {
     0% {
               from {opacity: 0; }
